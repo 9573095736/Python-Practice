@@ -2,6 +2,7 @@ import MySQLdb
 from flask import request, make_response
 from flask_mysqldb import MySQL
 from flask import Flask, jsonify, render_template, session, redirect, url_for
+# importing classes from another file
 from cls import UserSignUp, Products, portfo, portfoli
 import hashlib
 import datetime
